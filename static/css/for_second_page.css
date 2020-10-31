@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {
+    font-family: Arial, Veranda, sans-serif, Roboto Slab;
+    color: #000000;
+    font-size: 20pt;
+    background-size: 100%;
+}
+
+body, html {
+     width: 100%;
+     height: 100%;
+}
+/* Шапка странички */
+header {
+    padding: 22px;
+    width: 100% ;
+    height: 25px;
+    background: transparent;
+    float: left;
+    background-color: #D3D3D3;
+}
+header #logo span{
+
+    font-size: 1.4em;
+    line-height: 45px;
+    margin-left: 55px;
+    width: 100%;
+    font-family: 'Montserrat', serif;
+}
+.section{
+    height: 200px;
+    width: 100px;
+}
+.menu-btn {
+    margin-top: 10px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #00FFFF;
+    position: relative;
+}
+.menu-btn span, .menu-btn span::before, .menu-btn span::after  {
+    position: absolute;
+    margin-top: -1px;
+    left: 50%;
+    margin-left: -10px;
+    top: 50%;
+    width: 20px;
+    height: 2px;
+    background-color: #222;
+}
+/* создаем для кнопки декоратор */
+.menu-btn span::before, .menu-btn span::after {
+    content: '';
+    display: block;
+    transition: 0.5s;
+
+}
+.menu-btn span::before {
+    transform: translateY(-5px);
+}
+.menu-btn span::after {
+    transform: translateY(5px);
+}
+.menu-btn_active span::before{
+    transform: rotate(35deg);
+}

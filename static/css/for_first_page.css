@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+
+body {
+    font-family: Arial, Veranda, sans-serif, Roboto Slab;
+    color: #000000;
+    font-size: 20pt;
+    background-color: #8B4513;
+    background-size: 100%;
+}
+
+body, html {
+     width: 100%;
+     height: 100%;
+}
+/* Шапка странички */
+header {
+    padding: 20px;
+    width: 100% ;
+    height: 50px;
+    background: transparent;
+    position: fixed;
+    float: left;
+    background-color: #fff;
+}
+
+header #logo span{
+    font-size: 1.7em;
+    line-height: 45px;
+    margin-left: 40px;
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+}
+/* прикрепляем about к logo */
+
+@media (min-width: 701px) {
+#logo{
+    float: left;
+    width: 30%;
+    font-size: 1.1em;
+    height: 50px
+}
+    #about {
+        float: right;
+        width: 67%;
+    }
+}
+#about {
+    font-family: 'Suez One', serif;
+    float: left;
+}
+
+#about {
+text-aline : center;
+text-decoration: none;
+font-size: lem;
+line-height: 50px;
+margin-bottom: 10px;
+}
+
+#about > a {color: black;
+text-decoration: none;}
+#about > a:hover { color: #808080;
+    border-bottom: 2px solid #000;
+}
+
+#about > a:not(:last-child) {
+    margin-right: 10% /* отступ от следующей ссылки */
+}
+/* блок с контактами*/
+#Registration {
+    margin-top: 25px;
+    width: 100%;
+    float: left;
+    padding-bottom: 40px;
+    padding-top: 70px;
+    border-top: 4px solid #ccc;
+    background: #f4f4f4;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+}
+#contacts h5 { font-size: 3em; color: #4f4f4f4}
+#form_input {
+    height: 650px;
+    margin-top: 15px;
+    width: 35%;
+    margin-left: 38%;
+    font-size: 1.1em;
+}
+#form_input  input::-webkit-input-placeholder {font-size:0.8em;}
+
+#form_input label {
+    color: #505050;
+    cursor: pointer;
+    font-size: 1.4em;
+    font-family: 'Roboto Slab', serif;
+}
+
+#form_input label > span {
+    color: #A52A2A;
+}
+
+#form_input input, #form_input textarea {
+    margin-bottom: 10px
+    width: 70%;
+    padding: 10px 2%;
+    border-radius: 7px; /* отвечает за скругление углов entry*/
+    border: 2px solid silver;
+    font-size: 0.9em;
+    color: #4a4a4a;
+}
+#form_input input:focus, #form_input textarea: focus { /*когда будем наводить курсор на entry*/
+    color: #A52A2A;
+}
+#mess_send a {
+text-decoration: none;}
+
+.btn {
+    margin-top: 10px;
+    float: left;
+    border-radius: 5px;
+    padding: 5px 9px;
+    font-size: 1.2em;
+    background-color: #ec6550;
+    text-shadow: #454545 0 0 2px; /* тень от текста (цвет, распространиение, угол расп, как далеко) */
+    cursor: pointer;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn:hover { /* эффект при наведении  */
+    background-color: #c15443;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link   rel="stylesheet" href="{{ url_for('static', filename='css/for_first_page.css') }}">
+    <title>Registration</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;}
+    </style>
+</head>
+<body>
+    <header>
+    <div id="logo">
+        <span>Cooperative</span>
+    </div>
+    <div id="about" onclick="#">
+        <a href="#" title="Регистрация" >Регистрация</a>
+        <a href="#" title="О нас" >О нас</a>
+        <a href="#" title="Контакты" >Контакты</a>
+    </div>
+    </header>
+
+    <div id="Registration">
+        <form id="form_input">
+            <label for="name">Кличка животного<span>*</span></label><br>
+            <input type="text" placeholder="Введите кличку животного" name="animal" id="animal_name"><br>
+
+            <label for="name">ФИО<span>*</span></label><br>
+            <input type="text" placeholder="Введите ваши контакты" name="name" id="name"><br>
+
+            <label for="message">Сообщение<span>*</span></label><br>
+            <textarea placeholder="Введите ваше сообщение " name="message" id="message"></textarea><br>
+
+            <label for="email">Ваша почта<span>*</span></label><br>
+            <input type="email" placeholder="Введите email" name="email" id="email"><br>
+
+            <div id="mess_send" class="btn"><a href="/main" title="Регистрация">Регистрация</a></div>
+        </form>
+
+    </div>
+
+</body>
+</html>

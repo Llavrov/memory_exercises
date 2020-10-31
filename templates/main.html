@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link   rel="stylesheet" href="{{ url_for('static', filename='css/for_second_page.css') }}">
+    <title>Registration</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <span>База данных бездомных животных</span>
+        </div>
+
+    <div class="section">
+        <a href="#" class="menu-btn">
+            <span>
+            </span>
+
+        </a>
+    </div>
+    </header>
+    <script type="text/javascript">
+        $('.menu-btn').on('click', function(e){
+           e.preventDefault;
+           $(this).toggleClass('menu-btn_active');
+        });
+    </script>
+
+</body>
+</html>
