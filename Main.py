@@ -19,5 +19,10 @@ def main_page():
     return render_template('main.html')
 
 
+@app.route('/add')
+def add_page():
+    return render_template('add_page.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True)

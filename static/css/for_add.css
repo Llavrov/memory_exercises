@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    font-family: Arial, Veranda, sans-serif, Roboto Slab;
+    color: #000000;
+    font-size: 20pt;
+    background-size: 100%;
+}
+
+body, html {
+     width: 100%;
+     height: 100%;
+}
+
+header #tip span{
+    font-family: 'Montserrat', serif;
+    font-size: 1.1em;
+}
+#info {
+    margin-top: 15px;
+    width: 67%;
+    margin-left: 10%;
+    font-size: 1.1em;
+}
+#text_block {
+    margin-top: 25px;
+    width: 100%;
+    float: left;
+    padding-bottom: 40px;
+    padding-top: 70px;
+    border-top: 4px solid #ccc;
+    background: #f4f4f4;
+}
+}
+
+#text_block h2{
+    font-family: 'Montserrat', serif;
+    font-size: 0.7em;
+
+}

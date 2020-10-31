@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 body {
@@ -16,9 +16,9 @@ body, html {
 header {
     width: 100% ;
     height: 50px;
-    background: transparent;
     float: left;
     background-color: #D3D3D3;
+
 }
 header #logo span{
 
@@ -30,7 +30,7 @@ header #logo span{
 }
 .section{
     margin-top:5px;
-    height: 600px;
+    height: 650px;
     width: 100%;
 }
 .menu-btn {
@@ -40,10 +40,8 @@ header #logo span{
     height: 50px;
     border-radius: 50%;
     background-color: #00FFFF;
-    position: relative;
 }
 .menu-btn span, .menu-btn span::before, .menu-btn span::after  {
-    position: absolute;
     margin-top: -1px;
     left: 50%;
     margin-left: -10px;
@@ -72,7 +70,7 @@ header #logo span{
 /* создаем секции при раскрытии меню */
 .menu-btn_nav {
     padding-top: 40px;
-    position: transparent;
+
     z-index: 20;
     display: flex;
     flex-flow: column;
@@ -100,14 +98,16 @@ color: #fff;
 color: #808080;
 }
 h1 {
+margin-left: 20px;
+font-size: 1.1em;
 font-family: 'PT Serif', serif;
 
 }
 #image {
-
-height: 400px;
-margin-left: 100px;
-width: 600px;
+background-image: url(https://lubertsyriamo.ru/files/image/07/05/07/-lg!0tl5.jpg);
+height: 550px;
+margin-left: 50px;
+width: 800px;
 background-color: #00FF00;
 border-radius: 20px;
 

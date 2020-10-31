@@ -2,9 +2,86 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link   rel="stylesheet" href="{{ url_for('static', filename='css/for_add.css') }}">
+    <title>Добавить</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;}
+    </style>
+    <style>
+   .left, .right {
+    float: left; /* Обтекание справа */
+    width: 50%; /* Ширина текстового блока */
+   }
+   .right {
+    text-align: right; /* Выравнивание по правому краю */
+   }
+  </style>
 </head>
 <body>
+    <header>
+        <div id="tip">
+            <span>Добавить животного в каталог</span>
+        </div>
+    </header>
+    <div id="text_block">
+        <form id="info">
 
+        <center><h2>Карточка учета животного № ХХХХХ</h2></center>
+            <p>Адрес приюта</p>
+        <input type="text" placeholder="Введите адрес приюта" id="adres"><br>
+            <p>Эксплуатирующая организация</p>
+        <input type="text" placeholder="Введите эксплуатационную организацию" id="org"><br>
+            <p>Номер вальера</p>
+        <input type="text" placeholder="Введите номер вальера" id="number_val"><br>
+        <center><h2>Основные сведения</h2></center>
+            <p>Собака</p>
+        <input name="animal" type="radio" id="radioButton1">
+            <p>кошка</p>
+        <input name="animal" type="radio" id="radioButton2">
+            <p>Возраст</p>
+        <input type="number" placeholder="Введите возраст животного" id="age"><br>
+            <p>Вес</p>
+        <input type="number" placeholder="Введите вес животного" id="mass"><br>
+            <div style="display:inline-block">
+            <p>Пол животного</p>
+        <input type="text" placeholder="Введите пол животного" >
+             <p>Порода животного</p>
+        <input type="text" placeholder="Введите породу животного">
+            </div><br>
+            <div style="display:inline-block">
+            <p>Окрас животного</p>
+        <input type="text" placeholder="Введите информацию про окрас животного">
+            <p>Шерсть животного</p>
+        <input type="text" placeholder="Введите информацию про шерсть животного">
+            </div><br>
+            <div style="display:inline-block">
+            <p>Уши животного</p>
+        <input type="text" placeholder="Введите информацию про уши животного">
+            <p>Хвост животного</p>
+        <input type="text" placeholder="Введите информацию про хвост животного">
+            </div><br>
+            <div style="display:inline-block">
+            <p >Размеры животного</p>
+        <input type="text" placeholder="Введите размеры животного">
+            <p >Особые приметы животного</p>
+        <input type="text" placeholder="Введите информацию про особые приметы животного">
+            </div><br>
+            <p>Характер</p>
+        <input type="text" placeholder="Характер животного" id="harakter"><br>
+            <p>Идентификационная метка</p>
+        <input type="text" placeholder="Характер животного" id="metka"><br>
+            <p>Дата стериализации</p>
+        <input type="number" placeholder="Характер животного" id="steril"><br>
+            <p>Место стерилизации</p>
+        <input type="text" placeholder="Характер животного" id="metka"><br>
+            <p>Ф.И.О. ветеринарного врача </p>
+        <input type="text" placeholder="Характер животного" id="FIO_dc"><br>
+
+        </form>
+
+
+    </div>
 </body>
 </html>
