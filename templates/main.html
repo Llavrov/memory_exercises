@@ -17,19 +17,30 @@
         </div>
 
     <div class="section">
-        <a href="#" class="menu-btn">
-            <span>
-            </span>
 
-        </a>
+    <nav class="menu-btn_nav">
+        <a href="#" class="menu-link">Добавить</a>
+        <a href="#" class="menu-link">Каталог</a>
+        <a href="#" class="menu-link">Поиск</a>
+        <a href="#" class="menu-link">Вопросы</a>
+        <a href="#" class="menu-link">Контакты</a>
+    </nav>
+
+    <div id="image">
+    <h1> Интересная информация про животных </h1>
     </div>
+        </div>
     </header>
-    <script type="text/javascript">
-        $('.menu-btn').on('click', function(e){
-           e.preventDefault;
-           $(this).toggleClass('menu-btn_active');
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $('menu-btn').on('click', function(e) {
+        e.preventDefault;
+        $(this).toggleClass('menu-btn_active');
         });
     </script>
+
 
 </body>
 </html>

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 body {
     font-family: Arial, Veranda, sans-serif, Roboto Slab;
@@ -13,9 +14,8 @@ body, html {
 }
 /* Шапка странички */
 header {
-    padding: 22px;
     width: 100% ;
-    height: 25px;
+    height: 50px;
     background: transparent;
     float: left;
     background-color: #D3D3D3;
@@ -29,8 +29,9 @@ header #logo span{
     font-family: 'Montserrat', serif;
 }
 .section{
-    height: 200px;
-    width: 100px;
+    margin-top:5px;
+    height: 600px;
+    width: 100%;
 }
 .menu-btn {
     margin-top: 10px;
@@ -64,6 +65,51 @@ header #logo span{
 .menu-btn span::after {
     transform: translateY(5px);
 }
-.menu-btn_active span::before{
+.menu-btn_active span:before{
     transform: rotate(35deg);
+}
+
+/* создаем секции при раскрытии меню */
+.menu-btn_nav {
+    padding-top: 40px;
+    position: transparent;
+    z-index: 20;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    background-color: #2a2a2a;
+    overflow-y: auto;
+    float: right;
+    right: -100%;
+}
+
+.menu-btn_active .menu-btn_nav {
+    left: 0;
+}
+.menu-link {
+padding: 30px;
+font-family: 'PT Serif', serif;
+font-size: 26px;
+text-decoration: none;
+text-transform: uppercase; /* отвечает за положение над или под блоками*/
+letter-spacing: 5px;
+font-weight: bold;
+color: #fff;
+}
+.menu-link:hover{
+color: #808080;
+}
+h1 {
+font-family: 'PT Serif', serif;
+
+}
+#image {
+
+height: 400px;
+margin-left: 100px;
+width: 600px;
+background-color: #00FF00;
+border-radius: 20px;
+
+
 }
