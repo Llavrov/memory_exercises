@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link   rel="stylesheet" href="{{ url_for('static', filename='css/for_katalog.css') }}">
+    <title>Registration</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;}
+    </style>
+</head>
+<body>
+    <header>
+    <div id="logo">
+        <span>Каталог</span>
+    </div>
+    <div id="Filter" onclick="#">
+        <h2>Фильтр: </h2>
+        <a class="btn" href="/main" title="Регистрация">Кошки</a>
+        <a class="btn" href="/main" title="Регистрация">Собаки</a>
+        <a class="btn" href="/main" title="Регистрация">Привиты</a>
+        <a class="btn" href="/main" title="Регистрация">Породистые</a>
+        <a class="btn" href="/main" title="Регистрация">Стерилизованные</a>
+    </div>
+    </header>
+    <div id="labpriv" class="block"></div>
+    <div id="moon">
+        <div id="lab" class="block"></div>
+        <div id="lab2" class="block"></div>
+        <div id="lab3" class="block"></div>
+        <div id="lab4" class="block"></div>
+        <div id="lab5" class="block"></div>
+    </div>
+    <div id="moon2">
+        <div id="lab_" class="block"></div>
+        <div id="lab_2" class="block"></div>
+        <div id="lab_3" class="block"></div>
+        <div id="lab_4" class="block"></div>
+        <div id="lab_5" class="block"></div>
+    </div>
+</body>
+</html>

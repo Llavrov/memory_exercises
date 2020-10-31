@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    font-family: Arial, Veranda, sans-serif, Roboto Slab;
+    color: #000000;
+    font-size: 20pt;
+    background-color: #2a2a2a;
+    background-size: 100%;
+}
+
+body, html {
+     width: 100%;
+     height: 100%;
+}
+/* Шапка странички */
+header {
+    border-top: 55px solid transparent;
+	margin-top: -55px;
+	padding: 5px; /* паддинги - без проблем */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+    width: 100% ;
+    height: 50px;
+    background: transparent;
+    float: left;
+    background-color: #fff;
+}
+header #logo span{
+    margin-left: 30px;
+    font-family: 'Montserrat', serif;
+    font-size: 1.1em;
+    line-height: 45px;
+    width: 100%;
+}
+h2 {
+font-size: 0.7em;
+font-family: 'PT Serif', serif;
+}
+@media (min-width: 701px) {
+#logo{
+    float: left;
+    width: 30%;
+    font-size: 1.1em;
+    height: 50px
+}
+    #Filter {
+        float: right;
+        width: 67%;
+    }
+}
+/* фильтры */
+.btn {
+
+    float: left;
+    border-radius: 5px;
+    padding: 5px 9px;
+    font-size: 0.9em;
+    background-color: #CCCCCC;
+    text-shadow: #454545 0 0 2px; /* тень от текста (цвет, распространиение, угол расп, как далеко) */
+    cursor: pointer;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.btn:hover { /* эффект при наведении  */
+    background-color: #999999;
+}
+#Filter > a:not(:last-child) {
+    text-color: black;
+    margin-right: 1%;/* отступ от следующей ссылки */
+     text-decoration: none;
+}
+#labpriv{
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 50px;
+    width: 75px;
+    border-radius: 7px; /* отвечает за скругление углов entry*/
+    border: 2px solid silver;
+    background-color: #FFCCCC;
+}
+#moon div{
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 300px;
+    width: 140px;
+    border-radius: 7px; /* отвечает за скругление углов entry*/
+    background-color: #696969;
+    box-shadow: #FFFFFF 0 0 2px;
+}
+#moon2 div{
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 300px;
+    width: 140px;
+    border-radius: 7px; /* отвечает за скругление углов entry*/
+    background-color: #696969;
+    box-shadow: #FFFFFF 0 0 2px;
+}
+#moon div{
+    width: 16%;
+    margin-left: 3%;
+    float: left;
+}
+
+#moon2 div{
+    width: 16%;
+    margin-left: 3%;
+    float: left;
+}

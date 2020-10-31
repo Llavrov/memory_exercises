@@ -14,6 +14,7 @@ body, html {
 }
 
 header #tip span{
+    margin-left: 25px;
     font-family: 'Montserrat', serif;
     font-size: 1.1em;
 }
@@ -32,7 +33,7 @@ header #tip span{
     border-top: 4px solid #ccc;
     background: #f4f4f4;
 }
-}
+
 
 #text_block h2{
     font-family: 'Montserrat', serif;

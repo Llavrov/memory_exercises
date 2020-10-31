@@ -24,5 +24,10 @@ def add_page():
     return render_template('add_page.html')
 
 
+@app.route('/katalog')
+def katalog_page():
+    return render_template('katalog_page.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True)
