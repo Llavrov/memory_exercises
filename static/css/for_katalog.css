@@ -105,7 +105,10 @@ font-family: 'PT Serif', serif;
     margin-left: 3%;
     float: left;
 }
+#lab {
 
+background-image: url(https://icdn.lenta.ru/images/2020/06/01/06/20200601062328872/square_320_08f675960e1c184fba2c762cc35912e3.jpg);
+}
 #moon2 div{
     width: 16%;
     margin-left: 3%;

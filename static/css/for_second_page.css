@@ -33,6 +33,13 @@ header #logo span{
     height: 650px;
     width: 100%;
 }
+.section p{
+    margin-left: 40px;
+    font-family: 'Montserrat', serif;
+    font-size: 0.6em;
+    color: #A9A9A9;
+    text-decoration: underline;
+}
 .menu-btn {
     margin-top: 10px;
     display: block;
@@ -83,6 +90,7 @@ header #logo span{
 
 .menu-btn_active .menu-btn_nav {
     left: 0;
+
 }
 .menu-link {
 padding: 30px;
@@ -94,17 +102,27 @@ letter-spacing: 5px;
 font-weight: bold;
 color: #fff;
 }
+
 .menu-link:hover{
 color: #808080;
 }
+
 h1 {
 margin-left: 20px;
 font-size: 1.1em;
 font-family: 'PT Serif', serif;
-
 }
+
+#priv {
+    height: 50px;
+    width: 100%;
+}
+
+
+/* фотография собачек */
 #image {
-background-image: url(https://lubertsyriamo.ru/files/image/07/05/07/-lg!0tl5.jpg);
+margin-top: 40px;
+background-image: url(https://arctic.ru/images/95/27/952722.jpg);
 height: 550px;
 margin-left: 50px;
 width: 800px;
